@@ -25,7 +25,10 @@ RESULTS AND INSIGHTS:
 
 
 
-
+Main contribution: 
+Philip > EDA, results and insights  
+Sana > Dataprep, Deep Learning classification
+Rest is shared.
 
 
 
