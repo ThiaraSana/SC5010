@@ -7,7 +7,14 @@ HAPPYWHALE DATASET:
 - The happywhale dataset is significant in size, with more than 57k entries and 28 different species making up more than 57GB of data. The data itself consists of a photo of a whale/dolphin fin or tail, as well as the species and individual ID provided. A lot of the species are closely related, and since it's only a small part of the animal above the waterline, it can be challenging to tell different individuals or species from another.
 
 EDA AND DATA PREP.
-- Since 
+- Since the data is provided by many different actors, it also varies greatly; this means that each photo has different resolution, size, crop, color etc. which makes it more challenging to standardize for our model. 
+- The data has a very heavy class imbalance, with species having between 14 and 10.000 entries. 
+- We performed some basic datacleaning, as we realised some of the species had been mislabelled, but otherwise there were no gruelling errors to the dataset.
+- Under-or oversampling was not a realiable solution, as we would either end up with a huge or tiny dataset - and we did not think it was realistic to brute force 14 images to +10k using image augmentation.
+
+- In order to standidize the data a bit, we chose 2 different methods for cropping the images to a 224x224 size:
+- First we used a basic centerbox cropping which ended up working overall well, with a few edgecases where the fin would not fit in the crop.
+- Next we used a YOLOv5 object detection, which yielded better results, but also placed the cropped image on a black bounding box. We also saw some examples where this tool would crop birds or boats instead of the dolphin or whale. 
 
 
 
