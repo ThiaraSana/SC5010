@@ -1,8 +1,13 @@
 # SC5010
 
 BACKGROUND
-- Happywhale is an NGO founded in 2015, with a mission to increase global understanding of marine environments. They collaborate with many individual organisations and volunteers to photograph different whales and dolphins, which are then identified by species and individual ID by experts. this is a very labor intensive process. 
+- Happywhale is an NGO founded in 2015, with a mission to increase global understanding of marine environments. They collaborate with many individual organisations and volunteers to photograph different whales and dolphins, which are then identified by species and individual ID by experts. this is a very labor intensive process which takes up thousands of hours. They chose to make their database avaliable in hopes of building a predictive model, which can reliably predict species and individual ID's for species of whales and dolphins.
 
+HAPPYWHALE DATASET:
+- The happywhale dataset is significant in size, with more than 57k entries and 28 different species making up more than 57GB of data. The data itself consists of a photo of a whale/dolphin fin or tail, as well as the species and individual ID provided. A lot of the species are closely related, and since it's only a small part of the animal above the waterline, it can be challenging to tell different individuals or species from another.
+
+EDA AND DATA PREP.
+- Since 
 
 
 
