@@ -1,5 +1,8 @@
 # SC5010
-dskfjnsjkdf
+
+BACKGROUND
+- Happywhale is an NGO founded in 2015, with a mission to increase global understanding of marine environments. They collaborate with many individual organisations and volunteers to photograph different whales and dolphins, which are then identified by species and individual ID by experts. this is a very labor intensive process 
+
 
 
 
